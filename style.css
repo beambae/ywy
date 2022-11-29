@@ -1,0 +1,155 @@
+/* h3{
+    font-size: 30px;
+    text-align: right;
+    color: cornflowerblue;
+} */
+/* body{
+    padding: 0;
+    margin: 0;
+} */
+.nav{
+    list-style-type: none;
+    background-color: rgb(8, 8, 8);
+    /* text-align: center; */
+    width: 97.4%;
+    height: 126px;
+    color: aliceblue;
+}
+.nav li{
+    display: inline-block;
+    padding: 50px;
+    font-size: 26px;
+    padding: 22px;
+
+}
+.bg1{
+    height: 68px;
+    width: 100%;
+    background-color: #FDB8B8;
+    background-repeat: no-repeat;
+}
+/* #bgurl{
+    text-align: center;
+    background-repeat: no-repeat;
+}
+#bgurl:hover{
+    opacity: 0.6;
+}
+#bgurl img{
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+    object-fit: contain;
+} */
+/* #hover{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(235, 54, 175);
+    transition: width 2s;
+    float: left;
+}
+#hover:hover{
+    width: 300px;
+    background-color: rgb(63, 223, 89);
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: aliceblue;
+    z-index: 1;
+}.dropdown:hover .dropdown-content{
+    display: block;
+} */
+/* #text{
+    background-color: peru;
+    border: 10px solid red;
+    padding: 20px;
+    margin: 20px;
+    text-align: justify;
+    text-indent: 20%;
+}
+.text{
+    list-style-type: none;
+    text-align: center;
+}
+.text li{
+    display: inline-block;
+    padding: 10px;
+    font-size: 12px;
+}
+#tt1{
+    background-color: peru;
+    border: 10px solid red;
+    padding: 5px;
+    margin: 4px;
+    text-align: justify;
+    text-indent: 20%;
+}
+#tt2{
+    background-color: peru;
+    border: 10px solid red;
+    padding: 5px;
+    margin: 4px;
+    text-align: justify;
+    text-indent: 20%;
+}
+#tt3{
+    background-color: peru;
+    border: 10px solid red;
+    padding: 5px;
+    margin: 4px;
+    text-align: justify;
+    text-indent: 20%;
+} */
+.logo img{
+    width: 120px;
+    height: 110px;
+    float: left;
+}
+.foot{
+    height: 68px;
+    width: 100%;
+    background-color: #FDB8B8;
+    margin-top: -50px;
+
+}
+.foot1{
+    height: 66px;
+    width: 100%;
+    background-color: #FDB8B8;
+    margin-top: 0px;
+
+}
+p{
+    font-size: 24px;
+}
+.heroH{
+    padding: 0px;
+    width: 100%;
+    height: 497px;
+    background-color: #EB9C9C;
+    opacity: 30%;
+}
+div.heroH {
+    position: relative;
+    width: 100%;
+    height: 479px;
+    /* border: 2px solid #000000; */
+}
+.heroHtext{
+    text-align: center;
+}
+div.heroH1 {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 439px;
+    height: 310px;
+    border: 1px solid #000000;
+    margin: 30px;
+    padding: 20px;
+}
