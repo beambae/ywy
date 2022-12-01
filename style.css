@@ -3,10 +3,10 @@
     text-align: right;
     color: cornflowerblue;
 } */
-/* body{
+body{
     padding: 0;
     margin: 0;
-} */
+}
 .nav{
     list-style-type: none;
     background-color: rgb(8, 8, 8);
@@ -28,83 +28,6 @@
     background-color: #FDB8B8;
     background-repeat: no-repeat;
 }
-/* #bgurl{
-    text-align: center;
-    background-repeat: no-repeat;
-}
-#bgurl:hover{
-    opacity: 0.6;
-}
-#bgurl img{
-    width: 300px;
-    height: auto;
-    border-radius: 50%;
-    object-fit: contain;
-} */
-/* #hover{
-    width: 100px;
-    height: 100px;
-    background-color: rgb(235, 54, 175);
-    transition: width 2s;
-    float: left;
-}
-#hover:hover{
-    width: 300px;
-    background-color: rgb(63, 223, 89);
-}
-.dropdown{
-    position: relative;
-    display: inline-block;
-}
-.dropdown-content{
-    display: none;
-    position: absolute;
-    background-color: aliceblue;
-    z-index: 1;
-}.dropdown:hover .dropdown-content{
-    display: block;
-} */
-/* #text{
-    background-color: peru;
-    border: 10px solid red;
-    padding: 20px;
-    margin: 20px;
-    text-align: justify;
-    text-indent: 20%;
-}
-.text{
-    list-style-type: none;
-    text-align: center;
-}
-.text li{
-    display: inline-block;
-    padding: 10px;
-    font-size: 12px;
-}
-#tt1{
-    background-color: peru;
-    border: 10px solid red;
-    padding: 5px;
-    margin: 4px;
-    text-align: justify;
-    text-indent: 20%;
-}
-#tt2{
-    background-color: peru;
-    border: 10px solid red;
-    padding: 5px;
-    margin: 4px;
-    text-align: justify;
-    text-indent: 20%;
-}
-#tt3{
-    background-color: peru;
-    border: 10px solid red;
-    padding: 5px;
-    margin: 4px;
-    text-align: justify;
-    text-indent: 20%;
-} */
 .logo img{
     width: 120px;
     height: 110px;
@@ -112,9 +35,9 @@
 }
 .foot{
     height: 68px;
-    width: 100%;
+    width: 99%;
     background-color: #FDB8B8;
-    margin-top: -50px;
+    margin-top: -17.5px;
 
 }
 .foot1{
@@ -128,11 +51,12 @@ p{
     font-size: 24px;
 }
 .heroH{
+    margin-top: -26px;
     padding: 0px;
     width: 100%;
     height: 497px;
-    background-color: #EB9C9C;
-    opacity: 30%;
+    background-color: #F86363;
+    opacity: 80%;
 }
 div.heroH {
     position: relative;
@@ -152,4 +76,41 @@ div.heroH1 {
     border: 1px solid #000000;
     margin: 30px;
     padding: 20px;
+}
+.bt1 {
+    background-color: #B8B2B2;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.bt2 {
+    background-color: #60BDFB;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.heroH2{
+    padding: 0px;
+    width: 100%;
+    height: 497px;
+    background-color: #000000;
+}
+.imgbac{
+    width: 429px;
+    height: 237px;
+    margin: 120px;
 }
