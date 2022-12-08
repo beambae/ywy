@@ -52,3 +52,15 @@
     float: right;
 
 }
+.me{
+  width: 100%;
+  height: 500px;
+  background-image: url(safe/pic.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: 1px solid red;
+  background-color: black;
+}
+.resume{
+    align-content: center;
+}
