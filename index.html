@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dararat</title>
-    <link rel="stylesheet" href="style.css">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
@@ -14,83 +13,187 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="styleesheet" href="stlye.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 
 <body>
-    <ul class="nav" width="100%">
-        <div class="logo"><img src="safe/safelogo.jpg" alt=""></div>
-        <li>
-            <h4>Safeplanet</h4>
-        </li>
-        <li><a href="profile.html">Features</a></li>
-        <li>Pricing</li>
-        <li>Community</li>
-        <li>Support</li>
-        <button class="bt1">Log in</button>
-        <button class="bt2">Register</button>
-    </ul>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="bggreen" width="100%">
-                <br>
-                <div class="textsafe">
-                    <h1>SAFEPLANET</h1>
+    <!-- 1 -->
+    <nav class="navbar navbar-expand-lg  bg-black text-white">
+        <div class="container-fluid">
+            <a class="navbar-brand"><img src="safe/safelogo.jpg" width="90px" height="80px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- 2 -->
+    <div class="bg-info">
+        <div class="container bg-info">
+            <div class="row">
+                <div class="col-12">
+                    <h1>
+                        <br>
+                        <b>SAFEPLANET</b>
+                    </h1>
+                    <p>เซฟแพลนเน็ต (อังกฤษ: Safeplanet) เป็นวงดนตรีแนวอินดี้ป็อป<br>
+                        สัญชาติไทย ที่มีเอกลักษณ์คือเสียงกีต้าร์ที่มีความเป็นกีต้าร์แบนด์
+                    </p>
                 </div>
-                <p>เซฟแพลนเน็ต (อังกฤษ: Safeplanet) เป็นวงดนตรีแนวอินดี้ป็อป</p>
-                <p>สัญชาติไทย ที่มีเอกลักษณ์คือเสียงกีต้าร์ที่มีความเป็นกีต้าร์แบนด์</p>
-                <div class="row">
-                    <div class=" col-4 justify-content-center">
-                        <img src="safe/a.jpg" alt="Cinque Terre" width="300px" height="400px">
+                <div class="col-lg-4">
+                    <div class="card" style="width: 18rem; margin: 5%;">
+                        <img src="safe/a.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text"><b>Alien (Vocals/Guitar)</b><br>
+                                Thitipat Attachinda</p>
+                        </div>
                     </div>
-                    <div class=" col-4 justify-content-center">
-                        <img src="safe/d.jpg" alt="Forest" width="300px" height="400px">
-                    </div>
-                    <div class=" col-4 justify-content-center">
-                        <img src="safe/y.jpg" alt="Northern Lights" width="300px" height="400px">
-                    </div>
-                        
                 </div>
-                <!-- <div class="container">
-                    <a target="_blank" href="safe/a.jpg">
-                        <img src="safe/a.jpg" alt="Cinque Terre" width="600" height="400">
-                    </a>
-
-                    <div class="desc">Alien (นักร้องนำ)</div>
-                    <a target="_blank" href="safe/d.jpg">
-                        <img src="safe/d.jpg" alt="Forest" width="600" height="400">
-                    </a>
-                    <div class="desc">Doi (มือกลอง)</div>
-                    <a target="_blank" href="safe/y.jpg">
-                        <img src="safe/y.jpg" alt="Northern Lights" width="600" height="400">
-                    </a>
-                    <div class="desc">Yee (มือเบส)</div>
-                </div> -->
+                <div class="col-lg-4">
+                    <div class="card" style="width: 18rem; margin: 5%;">
+                        <img src="safe/d.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text"><b>Doi (Drummer)</b><br>
+                                Apiwit Khamfu</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card" style="width: 18rem; margin: 5%;">
+                        <img src="safe/y.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text"><b>Yee (Bass)</b><br>
+                                Chayapan Chantranuson<br></p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <hr class="foot">
-    <div class="container-fluid">
+    <!-- 3 -->
+    <div class="col-12">
+        <br>
+        <br>
+        <br>
+        <br>
+    </div>
+    <!-- 4 -->
+    <div class="bg-black">
+
         <div class="row">
-            <div class="bgblack" width="100%">
-                <div class="col-6"><img src="safe/saf.jpg" width="400" height="250"></div>
-                <div class="textsafe1 col-6">
-                    <h1>SAFEBOYS/SAFEGIRLS</h1>
-                    <p>เป็นชื่อเรียกของแฟนคลับของ Safeplanet ที่ตั้งขึ้นมา <br>
-                        เป็นชื่อที่เท่ห์ สุดคูลมากๆทั้งนี้ยังได้ไปเล่นสดที่ต่างประเทศอีกด้วยถือว่าเป็นวงไทย <br>
-                        ที่น้ำชื่อเสียงของวงการอินดี้ป็อบไทยไปโกอินเตอร์มีแฟนคลับทั้งในและนอกประเทศ <br>
-                        วงนี้เหมาะสำหรับคนโลกส่วนตัวสูงเป็นอย่างมากด้วยเนื้อเพลงที่ให้กำลังใจเหมือนมี<br>
-                        พวกเขาอยู่ข้างๆตลอดเวลา</p>
+            <div class="col-sm-6">
+                <img class="w-100" style="margin: 10%;" src="safe/saf.jpg" width="500px" height="400px">
+            </div>
+
+            <div class="col-sm-6">
+                <p style="margin: 10%;"><b>SAFEBOYS / SAFEGIRLS</b><br>
+                    เป็นชื่อเรียกของแฟนคลับของ Safeplanet ที่ตั้งขึ้นมา เป็นชื่อที่เท่ห์ สุดคูลมากๆ<br>
+                    ทั้งนี้ยังได้ไปเล่นสดที่ต่างประเทศอีกด้วย
+                    ถือว่าเป็นวงไทยที่น้ำชื่อเสียงของวงการอินดี้ป็อบไทยไปโกอินเตอร์<br>
+                    ทั้งนี้ยังได้ไปเล่นสดที่ต่างประเทศอีกด้วย
+                    ถือว่าเป็นวงไทยที่น้ำชื่อเสียงของวงการอินดี้ป็อบไทยไปโกอินเตอร์<br>
+                    ด้วยเนื้อเพลงที่ให้กำลังใจเหมือนมีพวกเขาอยู่ข้างๆตลอดเวลา
+                </p>
+            </div>
+
+        </div>
+    </div>
+    <!-- 5 -->
+    <div class="col-12">
+        <div class="col-12">
+            <br>
+            <br>
+            <br>
+            <br>
+        </div>
+    </div>
+    <!-- 6 -->
+    <footer class="p-3 mb-2 bg-danger text-white">
+        <div class="container py-5">
+            <div class="row py-4">
+                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0"><img src="img/1.png" alt="" width="30%" class="mb-3">
+                    <ul class="list-inline mt-4">
+                        <li class="list-inline-item"><a href="#" target="_blank" title="twitter"><i
+                                    class="fa fa-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="#" target="_blank" title="facebook"><i
+                                    class="fa fa-facebook"></i></a></li>
+                        <li class="list-inline-item"><a href="#" target="_blank" title="instagram"><i
+                                    class="fa fa-instagram"></i></a></li>
+                        <li class="list-inline-item"><a href="#" target="_blank" title="pinterest"><i
+                                    class="fa fa-pinterest"></i></a></li>
+                        <li class="list-inline-item"><a href="#" target="_blank" title="vimeo"><i
+                                    class="fa fa-vimeo"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+                    <h6 class="text-uppercase font-weight-bold mb-4">Mobile app</h6>
+                    <ul class="list-unstyled mb-0">
+                        <li class="mb-2"><a href="#" class="text-white">Features</a></li>
+                        <li class="mb-2"><a href="#" class="text-white">Live share</a></li>
+                        <li class="mb-2"><a href="#" class="text-white">Video record</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+                    <h6 class="text-uppercase font-weight-bold mb-4">Community</h6>
+                    <ul class="list-unstyled mb-0">
+                        <li class="mb-2"><a href="#" class="text-white">Featured artists</a></li>
+                        <li class="mb-2"><a href="#" class="text-white">The Portal</a></li>
+                        <li class="mb-2"><a href="#" class="text-white">Live events</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+                    <h6 class="text-uppercase font-weight-bold mb-4">Company</h6>
+                    <ul class="list-unstyled mb-0">
+                        <li class="mb-2"><a href="#" class="text-white">About us</a></li>
+                        <li class="mb-2"><a href="#" class="text-white">Contact us</a></li>
+                        <li class="mb-2"><a href="#" class="text-white">History</a></li>
+                    </ul>
                 </div>
             </div>
-            <hr class="foot1">
-            <ul class="nav" width="100%">
-                <div class="logo1"><img src="" alt=""></div>
-                <li>Mobile app</a></li>
-                <li>Community</li>
-                <li>Company</li>
-                <li class="li0">© Photo, Inc. 2019. We love our users!</li>
-            </ul>
-</body>
+        </div>
+
+        <!-- Copyrights -->
+        <div class="bg-danger py-4">
+            <div class="container text-center">
+                <p class="text-while mb-0 py-2">© 2019 Bootstrapious All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
